@@ -12,22 +12,29 @@
     <body>
       <nav class="navbar">
         <ul>
+
          <li><a href="#home">Home</a></li>
          <li><a href="#about">About</a></li>
+         <li><a href="#skills">Skills</a></li>
          <li><a href="#contact">Contact</a></li>
-         <li><a href="#info">Info</a></li>
+
          </ul>
       </nav>
         
       <main class="Main-content">
-        <section id="Home">
-          <article class="profile">
-         <img src="My photo.jpeg" alt="Me">
-         <h1>Hello,my name is Alvan Njeru</h1>
-          </article>  
+        <section id="home" class="hero-section">
+          <div class="home">
+            <img src="My photo.jpeg" alt="Me">
+            <div class="hero-text">
+              <h1>Hello, my name is Alvan Njeru</h1>
+              <p class="tagline">Software Developer | Web Designer | Creative Problem Solver</p>
+              <p>I build modern, clean, and user-friendly digital experiences that make ideas come to life.</p>
+              <a href="#about" class="cta-button">Learn More</a>
+            </div>
+          </div>
         </section>
         
-        <section id="About" class="portfolio container">
+        <section id="about" class="portfolio container">
           <article class="passion">
             <h2>About Me</h2>
          <p>I am a Software Developer and I am passionate about building clean,efficient digital websites.
@@ -35,37 +42,58 @@
           </article>
         </section>
 
-        <section id="info">
+        <section id="skills">
+          <article class="passion">
+            <h2>Skills</h2>
+            <h3>HTML</h3>
+            <p>I am building my foundation in HTML and enjoy creating clean, well-structured web pages.</p>
+
+            <h3>CSS</h3>
+            <p>I use CSS to bring my designs to life by styling layouts, colors, and responsive pages.</p>
+
+            <h3>JavaScript</h3>
+            <p>I am currently learning JavaScript and working to improve my skills in making websites more interactive.</p>
+
+            <h3>Node.js</h3>
+            <p>I am also exploring Node.js and learning how to build server-side functionality to support modern web applications.</p>
+
+            <h3>Football and Drawing</h3>
+            <p>I enjoy football and drawing, which help me stay creative, active, and motivated.</p>
+          </article>
+        </section>
+
+        <section id="contact">
           <div class="box">
-            <form>
-              <article class="portfolio-item">
-              <p>First Name:<input type="text"></p>
-              </article>
+            <h3>Contact Me</h3>
+            <form class="contact-form">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name">
 
-              <article class="portfolio-item">
-              <p>Last Name:<input type="text"></p>
-              </article>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your email">
 
-              <article class="portfolio-item">
-              <p>Email address:<input type="text"></p>
-              </article>
+              <label for="address">Address</label>
+              <input type="text" id="address" name="address" placeholder="Your address">
 
-              <article class="portfolio-item">
-              <p>Contact:<input type="text"></p>
-              </article>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+
+              <button type="submit">Send Message</button>
             </form>
+
+            <p>Email: alvanjeru82@gmail.com</p>
+            <p>Contact: 0710575885</p>
           </div>
         </section>
 
-        <section id="Contact">
-         <p>I am always open to new opportunities and collaborations. Feel free to reach out to work on
-           projects together.</p>
-        </section>
+      
+
+
 
       </main>
 
         <footer>
-            <p>&copy; My portfolio. All Rights Reserved.</p>
+            <p>&copy; 2026 My portfolio. All Rights Reserved.</p>
         </footer>
         
     </body>
